@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kapriz/static/css/main.a682d7e9.chunk.css",
+    "main.js": "/kapriz/static/js/main.47d40841.chunk.js",
+    "main.js.map": "/kapriz/static/js/main.47d40841.chunk.js.map",
+    "runtime-main.js": "/kapriz/static/js/runtime-main.7ef64154.js",
+    "runtime-main.js.map": "/kapriz/static/js/runtime-main.7ef64154.js.map",
+    "static/js/2.32cfe7ed.chunk.js": "/kapriz/static/js/2.32cfe7ed.chunk.js",
+    "static/js/2.32cfe7ed.chunk.js.map": "/kapriz/static/js/2.32cfe7ed.chunk.js.map",
+    "index.html": "/kapriz/index.html",
+    "precache-manifest.472fdf772f4310447b29c8f12828ad4e.js": "/kapriz/precache-manifest.472fdf772f4310447b29c8f12828ad4e.js",
+    "service-worker.js": "/kapriz/service-worker.js",
+    "static/css/main.a682d7e9.chunk.css.map": "/kapriz/static/css/main.a682d7e9.chunk.css.map",
+    "static/js/2.32cfe7ed.chunk.js.LICENSE.txt": "/kapriz/static/js/2.32cfe7ed.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ef64154.js",
+    "static/js/2.32cfe7ed.chunk.js",
+    "static/css/main.a682d7e9.chunk.css",
+    "static/js/main.47d40841.chunk.js"
+  ]
+}
