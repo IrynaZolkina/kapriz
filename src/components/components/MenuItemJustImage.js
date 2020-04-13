@@ -1,8 +1,6 @@
 import React from "react";
-/* import { withRouter } from "react-router-dom";
- */
 
-const MenuItem = ({
+const MenuItemJustImage = ({
   title,
   titleFront,
   titleBack,
@@ -19,12 +17,7 @@ const MenuItem = ({
         backgroundImage: `url(${imageUrl})`,
       }}
     />
-    <div className="content">
-      <h1 className="title">{title.toUpperCase()}</h1>
-      <span className="subtitle">SHOP NOW</span>
-    </div>
   </div>
 );
 
-export default MenuItem;
-//export default withRouter(MenuItem);
+export default MenuItemJustImage;
