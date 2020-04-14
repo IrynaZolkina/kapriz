@@ -8,19 +8,17 @@ import MenuItem from "./Menuitem";
 import MenuItemJustImage from "./MenuItemJustImage";
 import DataManager from "../utilities/DataManager";
 //import Button from "../utilities/Button";
-//import im from "../../images/homepage-img/";
 
 class Directory extends Component {
   constructor() {
     super();
 
     this.state = {
-      sections: [
+      sect: [
         {
-          title: "hats",
+          title: "ПАРФУМЫ",
           titleFront: "",
-          imageUrl:
-            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/Navbar%20images%2Fhp1.png?alt=media&token=e1edb285-d201-4238-9eb6-b8df71285368",
+          imageUrl: "images/homepage-images/hp1.png",
           id: 1,
           linkUrl: "shop/hats",
           size: "xxxl-img",
@@ -28,24 +26,21 @@ class Directory extends Component {
         {
           title: "jackets",
           titleFront: "hathhhhhhhhhhhhhhhhhhhhs",
-          imageUrl:
-            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/Navbar%20images%2Fdownload.jpg?alt=media&token=e4e397c9-b870-474f-97be-977da7244863",
+          imageUrl: "images/homepage-images/img18.jpg",
           id: 2,
           linkUrl: "shop/jackets",
           size: "xl-img",
         },
         {
           title: "sneakers",
-          imageUrl:
-            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/Navbar%20images%2FRicci-Ricci-2011_Q320.jpg?alt=media&token=c67af95c-b4b6-4bb2-9384-33b45fbae7fe",
+          imageUrl: "images/homepage-images/img17.jpg",
           id: 3,
           linkUrl: "shop/sneakers",
           size: "s-img",
         },
         {
-          title: "womens",
-          imageUrl:
-            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/Navbar%20images%2FSL24ADS_FAMOUS_Jimmy_Choo-1-1024x1024.jpg?alt=media&token=137dbf4e-a81e-450a-9efb-83f4afa3ffa6",
+          title: "map",
+          imageUrl: "images/homepage-images/img19.jpg",
           size: "large",
           id: 4,
           linkUrl: "shop/womens",
@@ -53,8 +48,7 @@ class Directory extends Component {
         },
         {
           title: "mens",
-          imageUrl:
-            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/Navbar%20images%2Fhair-care-at-home.jpg?alt=media&token=c752c198-e598-418f-8c77-12563d694f60",
+          imageUrl: "images/homepage-images/img16.jpg",
           size: "large",
           id: 5,
           linkUrl: "shop/mens",
@@ -62,8 +56,7 @@ class Directory extends Component {
         },
         {
           title: "mens",
-          imageUrl:
-            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/Navbar%20images%2Fbeautiful-skin.jpg?alt=media&token=51e8baf6-f604-4dac-b286-21811d870e38",
+          imageUrl: "images/homepage-images/img15.jpg",
           size: "large",
           id: 6,
           linkUrl: "shop/mens",
@@ -71,12 +64,60 @@ class Directory extends Component {
         },
         {
           title: "mens",
-          imageUrl:
-            " https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/Navbar%20images%2Fschwarzkopf-professional-bond-enforcing-blonde-lifting-cream.jpg?alt=media&token=833ccfff-cc06-43fb-8c0c-f7e939c4fc17",
+          imageUrl: " images/homepage-images/png13.png",
           size: "large",
           id: 7,
           linkUrl: "shop/mens",
           size: "l-img",
+        },
+      ],
+
+      sections: [
+        {
+          title: "ПАРФУМЫ",
+          imageUrl: "images/homepage-images/img09.jpg",
+          size: "large",
+          id: 1,
+          linkUrl: "shop/womens",
+        },
+        {
+          title: "декоративная косметика",
+          imageUrl: "images/homepage-images/img11.jpg",
+          size: "large",
+          id: 2,
+          linkUrl: "shop/mens",
+        },
+        {
+          title: "окрашивание",
+          imageUrl: "images/homepage-images/img04.jpg",
+          id: 3,
+          linkUrl: "shop/hats",
+        },
+        {
+          title: "уход для волос",
+          imageUrl: "images/homepage-images/img02.jpg",
+          id: 4,
+          linkUrl: "shop/jackets",
+        },
+        {
+          title: "стайлинг",
+          imageUrl: "images/homepage-images/img06.jpg",
+          id: 5,
+          linkUrl: "shop/sneakers",
+        },
+        {
+          title: "уход для лица",
+          imageUrl: "images/homepage-images/img07.jpg",
+          size: "large",
+          id: 6,
+          linkUrl: "shop/womens",
+        },
+        {
+          title: "средства для ногтей",
+          imageUrl: "images/homepage-images/img12.jpg",
+          size: "large",
+          id: 7,
+          linkUrl: "shop/mens",
         },
       ],
     };
@@ -84,18 +125,18 @@ class Directory extends Component {
 
   render() {
     return (
-      <div className="directory-menu">
+      <div className="directory-menu-my">
         <div className="directory-list-0">
           <div className="image-container">
             <img
               className="image-xxxl"
-              src={this.state.sections[0].imageUrl}
+              src={this.state.sect[0].imageUrl}
               alt=""
             />
           </div>
 
           <div className="title-l">НОВИНКИ СЕЗОНА</div>
-          <div className="btn-large">ПОСМОТРЕТЬ</div>
+          <div className="btn btn-large">ПОСМОТРЕТЬ</div>
         </div>
 
         <div className="grey-container">
@@ -108,7 +149,7 @@ class Directory extends Component {
               <div
                 className="background-image-m"
                 style={{
-                  backgroundImage: `url(${this.state.sections[2].imageUrl})`,
+                  backgroundImage: `url(${this.state.sect[2].imageUrl})`,
                 }}
               />
             </div>
@@ -117,7 +158,7 @@ class Directory extends Component {
               <div
                 className="background-image-m"
                 style={{
-                  backgroundImage: `url(${this.state.sections[3].imageUrl})`,
+                  backgroundImage: `url(${this.state.sect[3].imageUrl})`,
                 }}
               />
             </div>
@@ -125,7 +166,7 @@ class Directory extends Component {
               <div
                 className="background-image-m"
                 style={{
-                  backgroundImage: `url(${this.state.sections[1].imageUrl})`,
+                  backgroundImage: `url(${this.state.sect[1].imageUrl})`,
                 }}
               />
             </div>
@@ -133,28 +174,52 @@ class Directory extends Component {
 
           <div className="small-slider-under">
             <div className="small-slider-unit">
+              Wide assortment of different Brends
               <h2>ПАРФУМЫ ДЛЯ ЖЕНЩИН</h2>
-              <div className="btn-middle">ПОСМОТРЕТЬ</div>
+              <div className="btn btn-middle">ПОСМОТРЕТЬ</div>
             </div>
             <div className="small-slider-unit">
+              Wide assortment of different Brends
               <h2>ПАРФУМЫ ДЛЯ МУЖЧИН</h2>
-              <div className="btn-middle">ПОСМОТРЕТЬ</div>
+              <div className="btn btn-middle">ПОСМОТРЕТЬ</div>
             </div>
             <div className="small-slider-unit">
+              Wide assortment of different Brends
               <h2>ПАРФУМЫ </h2>
-              <div className="btn-middle">ПОСМОТРЕТЬ</div>
+              <div className="btn btn-middle">ПОСМОТРЕТЬ</div>
             </div>
           </div>
         </div>
 
         <div className="directory-list-1">
           <div className="title-2">ДЛЯ ЖЕНЩИН</div>
+
+          <div className="homepage1">
+            <div className="directory-menu">
+              {this.state.sections.map(
+                ({ id, titleFront, title, imageUrl, size }) => (
+                  <MenuItem
+                    key={id}
+                    title={title}
+                    titleFront={titleFront}
+                    imageUrl={imageUrl}
+                    size={size}
+                  />
+                )
+              )}
+            </div>
+          </div>
+
+          <div className="directory-list-2">
+            <div className="title-2">ДЛЯ МУЖЧИН</div>
+          </div>
+
           <div className="women-container">
             <div className="image-container">
               <div
                 className="background-image-m"
                 style={{
-                  backgroundImage: `url(${this.state.sections[6].imageUrl})`,
+                  backgroundImage: `url(${this.state.sect[4].imageUrl})`,
                 }}
               />
             </div>
@@ -162,7 +227,7 @@ class Directory extends Component {
               <div
                 className="background-image-m"
                 style={{
-                  backgroundImage: `url(${this.state.sections[4].imageUrl})`,
+                  backgroundImage: `url(${this.state.sect[5].imageUrl})`,
                 }}
               />
             </div>
@@ -170,16 +235,12 @@ class Directory extends Component {
               <div
                 className="background-image-m"
                 style={{
-                  backgroundImage: `url(${this.state.sections[5].imageUrl})`,
+                  backgroundImage: `url(${this.state.sect[6].imageUrl})`,
                 }}
               />
             </div>
           </div>
-
-          <div className="title-2">ДЛЯ МУЖЧИН</div>
         </div>
-
-        <div className="directory-list-2"></div>
       </div>
     );
   }
