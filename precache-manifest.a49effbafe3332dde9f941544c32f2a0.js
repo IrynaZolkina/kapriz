@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0a5cb11ae529914f9cf4985aec1041a",
+    "revision": "bba827534e8d6afa3d73d79d48a13c22",
     "url": "/kapriz/index.html"
   },
   {
-    "revision": "81388a79917d43a07304",
-    "url": "/kapriz/static/css/main.99861d96.chunk.css"
+    "revision": "0abb7b22374f097e8e23",
+    "url": "/kapriz/static/css/main.3e91c5f4.chunk.css"
   },
   {
     "revision": "6d4b746f6020cede5d03",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kapriz/static/js/2.d1bca1c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "81388a79917d43a07304",
-    "url": "/kapriz/static/js/main.8b1bc58a.chunk.js"
+    "revision": "0abb7b22374f097e8e23",
+    "url": "/kapriz/static/js/main.6569acbf.chunk.js"
   },
   {
     "revision": "6c4388236fdf133cbc9e",
