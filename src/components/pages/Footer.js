@@ -7,7 +7,7 @@ const Footer = () => {
       <div
         className="background-image-map"
         style={{
-          backgroundImage: `url("images/map.jpg")`,
+          backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fmap.jpg?alt=media&token=8f3ef417-5c22-4e73-a4e7-0cd3e1e97776")`,
         }}
       />
     </div>

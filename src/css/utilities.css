@@ -1,0 +1,136 @@
+/************* URL **************************
+hp1.png - url("https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fhp1.png?alt=media&token=1d8e9e89-424c-4aeb-b709-2d304c03974a")
+
+hp2.png - url("https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fhp2.jpg?alt=media&token=39ba9c81-0389-43dc-9d0d-8e80a405da1b")
+*/
+/************** Utilities ******************/
+.btn {
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 12px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: "Bigelow Rules";
+}
+
+.btn-large {
+  width: 200px;
+}
+
+.btn-middle {
+  width: 140px;
+}
+
+/****************   Slider-show   *****************/
+
+.container-slider {
+  margin: 1% auto;
+  width: 80%;
+  overflow: hidden;
+}
+.slider {
+  overflow: hidden;
+}
+.slider figure {
+  position: relative;
+  width: 600%;
+
+  height: 65vh;
+  z-index: -2;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+.slider figure div {
+  float: left;
+  width: 16.66666667%;
+  /* height: 100%;*/
+}
+
+.background-image-sl {
+  cursor: pointer;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/* .sl {
+  text-indent: -10000px;
+}
+.sl1 {
+  background: url("img1/img1.jpg") no-repeat center;
+}
+.sl2 {
+  background: url("img1/img2.jpg") no-repeat center;
+}
+.sl3 {
+  background: url("img1/img3.jpg") no-repeat center;
+}
+.sl4 {
+  background: url("img1/img4.jpg") no-repeat center;
+}
+.sl5 {
+  background: url("img1/img5.jpg") no-repeat center;
+} */
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  15% {
+    left: 0;
+  }
+  20% {
+    left: -100%;
+  }
+  35% {
+    left: -100%;
+  }
+  40% {
+    left: -200%;
+  }
+  55% {
+    left: -200%;
+  }
+  60% {
+    left: -300%;
+  }
+  75% {
+    left: -300%;
+  }
+  80% {
+    left: -400%;
+  }
+  95% {
+    left: -400%;
+  }
+  100% {
+    left: -500%;
+  }
+}
+.slider1 {
+  overflow: hidden;
+  position: relative;
+  width: 500%;
+
+  height: 15vh;
+  z-index: -2;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+.par {
+  float: left;
+  width: 20%;
+  height: 100%;
+  background: white;
+}
+.par1 {
+  font-size: 1.2rem;
+}
+.par2 {
+  font-family: "Comfortaa";
+  font-size: 2.2rem;
+  margin-top: 0;
+}
