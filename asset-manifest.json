@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/kapriz/static/css/main.eb7c744d.chunk.css",
-    "main.js": "/kapriz/static/js/main.d902ede4.chunk.js",
-    "main.js.map": "/kapriz/static/js/main.d902ede4.chunk.js.map",
+    "main.css": "/kapriz/static/css/main.e3cc5ae6.chunk.css",
+    "main.js": "/kapriz/static/js/main.3fad264d.chunk.js",
+    "main.js.map": "/kapriz/static/js/main.3fad264d.chunk.js.map",
     "runtime-main.js": "/kapriz/static/js/runtime-main.7ef64154.js",
     "runtime-main.js.map": "/kapriz/static/js/runtime-main.7ef64154.js.map",
-    "static/js/2.b07861f1.chunk.js": "/kapriz/static/js/2.b07861f1.chunk.js",
-    "static/js/2.b07861f1.chunk.js.map": "/kapriz/static/js/2.b07861f1.chunk.js.map",
+    "static/js/2.2b042f4d.chunk.js": "/kapriz/static/js/2.2b042f4d.chunk.js",
+    "static/js/2.2b042f4d.chunk.js.map": "/kapriz/static/js/2.2b042f4d.chunk.js.map",
     "index.html": "/kapriz/index.html",
-    "precache-manifest.325a092eb8693404c592e62e949d06be.js": "/kapriz/precache-manifest.325a092eb8693404c592e62e949d06be.js",
+    "precache-manifest.89aaba4981f4739123e8fc3fc589a472.js": "/kapriz/precache-manifest.89aaba4981f4739123e8fc3fc589a472.js",
     "service-worker.js": "/kapriz/service-worker.js",
-    "static/css/main.eb7c744d.chunk.css.map": "/kapriz/static/css/main.eb7c744d.chunk.css.map",
-    "static/js/2.b07861f1.chunk.js.LICENSE.txt": "/kapriz/static/js/2.b07861f1.chunk.js.LICENSE.txt"
+    "static/css/main.e3cc5ae6.chunk.css.map": "/kapriz/static/css/main.e3cc5ae6.chunk.css.map",
+    "static/js/2.2b042f4d.chunk.js.LICENSE.txt": "/kapriz/static/js/2.2b042f4d.chunk.js.LICENSE.txt",
+    "static/media/crown.ed28accb.svg": "/kapriz/static/media/crown.ed28accb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7ef64154.js",
-    "static/js/2.b07861f1.chunk.js",
-    "static/css/main.eb7c744d.chunk.css",
-    "static/js/main.d902ede4.chunk.js"
+    "static/js/2.2b042f4d.chunk.js",
+    "static/css/main.e3cc5ae6.chunk.css",
+    "static/js/main.3fad264d.chunk.js"
   ]
 }
