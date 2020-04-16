@@ -52,6 +52,24 @@ const Slider = () => {
             <div
               className="background-image-sl"
               style={{
+                backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fimg50.jpg?alt=media&token=8240a773-e115-4a10-b7a5-71d26e84071f")`,
+              }}
+            />
+            <div
+              className="background-image-sl"
+              style={{
+                backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fimg51.jpg?alt=media&token=db6d6e7d-b1b6-4fa9-9daa-e18baeabe4d4")`,
+              }}
+            />
+            <div
+              className="background-image-sl"
+              style={{
+                backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fimg52.jpg?alt=media&token=a0bf48c4-7706-4711-b560-aeeccb2ac78c")`,
+              }}
+            />
+            <div
+              className="background-image-sl"
+              style={{
                 backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fhp1.png?alt=media&token=1d8e9e89-424c-4aeb-b709-2d304c03974a")`,
               }}
             />
@@ -64,26 +82,47 @@ const Slider = () => {
             <div className="btn btn-large">ПОСМОТРЕТЬ</div>
           </div>
           <div className="par">
-            <p className="par1">efffffffffee</p>
+            <p className="par1"></p>
             <p className="par2">{" класика яка заворожує".toUpperCase()}</p>
             <div className="btn btn-large">ПОСМОТРЕТЬ</div>
           </div>
           <div className="par">
-            <p className="par1">eeeeee----------</p>
+            <p className="par1"></p>
             <p className="par2">
               {"кохання з першої ноти... Miss Dior".toUpperCase()}
             </p>
             <div className="btn btn-large">ПОСМОТРЕТЬ</div>
           </div>
           <div className="par">
-            <p className="par1">eeeeee+++++++++++eeeee</p>
-            <p className="par2">g//gg</p>
+            <p className="par1"></p>
+            <p className="par2">{"Дотик італійської магії".toUpperCase()}</p>
+            <div className="btn btn-large">ПОСМОТРЕТЬ</div>
+          </div>
+          <div className="par">
+            <p className="par1"></p>
+            <p className="par2">
+              {"нова легенда світу парфумерії".toUpperCase()}
+            </p>
+            <div className="btn btn-large">ПОСМОТРЕТЬ</div>
+          </div>
+          <div className="par">
+            <p className="par1"></p>
+            <p className="par2">
+              {"аромат твоєї індивідуальності".toUpperCase()}
+            </p>
+            <div className="btn btn-large">ПОСМОТРЕТЬ</div>
+          </div>
+          <div className="par">
+            <p className="par1"></p>
+            <p className="par2">
+              {"Твоя ніжність в кожній ноті парфуму....".toUpperCase()}
+            </p>
             <div className="btn btn-large">ПОСМОТРЕТЬ</div>
           </div>
           <div className="par">
             <p className="par1">eeeeee+++++++++++eeeee</p>
             <p className="par2">
-              {"нова леенгда світу парфумерії".toUpperCase()}
+              {"Спокуслива жіночність з парфумом Poudree від Narciso Rodrigues".toUpperCase()}
             </p>
             <div className="btn btn-large">ПОСМОТРЕТЬ</div>
           </div>

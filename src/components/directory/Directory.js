@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import "./directory.css";
 /* import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
 import { selectDirectorySections } from "../redux/directory/directorySelectors";*/
 
-import MenuItem from "./Menuitem";
-import MenuItemJustImage from "./MenuItemJustImage";
+import MenuItem from "../components/Menuitem";
+import MenuItemJustImage from "../components/MenuItemJustImage";
 import DataManager from "../utilities/DataManager";
 //import Button from "../utilities/Button";
 
@@ -129,22 +130,71 @@ class Directory extends Component {
           linkUrl: "shop/sneakers",
         },
         {
-          title: "уход для лица",
+          title: "обличчя",
           imageUrl:
-            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fimg07.jpg?alt=media&token=b56e5c36-50b1-4894-9914-37089a436f8d",
+            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fimg32.jpg?alt=media&token=0a444d5c-3f9f-4067-b4f0-47f4803e4dcc",
+          /* imageUrl:
+            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fimg07.jpg?alt=media&token=b56e5c36-50b1-4894-9914-37089a436f8d", */
           //imageUrl: "images/homepage-images/img07.jpg",
           size: "large",
           id: 6,
           linkUrl: "shop/womens",
         },
         {
-          title: "средства для ногтей",
+          title: "нігті",
           imageUrl:
-            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fimg12.jpg?alt=media&token=f0f5d8c9-606d-4001-b861-4fce932a6bd6",
+            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fimg31.jpg?alt=media&token=77f56afa-37fb-4233-9ad1-5559b5967416",
+          /* imageUrl:
+            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fimg12.jpg?alt=media&token=f0f5d8c9-606d-4001-b861-4fce932a6bd6", */
           //imageUrl: "images/homepage-images/img12.jpg",
           size: "large",
           id: 7,
           linkUrl: "shop/mens",
+        },
+      ],
+
+      sections2: [
+        {
+          title: "ПАРФУМЫ",
+          imageUrl:
+            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fimg21.jpg?alt=media&token=44b1723c-1a9f-44e3-b01a-39b47cd8766b",
+          //imageUrl: "images/homepage-images/img09.jpg",
+          size: "large",
+          id: 1,
+          linkUrl: "shop/womens",
+        },
+        {
+          title: "волосся",
+          imageUrl:
+            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fimg22.jpg?alt=media&token=0e1520df-3c6a-45c3-aaf4-4e20f1c09387",
+          //imageUrl: "images/homepage-images/img11.jpg",
+          size: "large",
+          id: 2,
+          linkUrl: "shop/mens",
+        },
+        {
+          title: "борода",
+          imageUrl:
+            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fimg23.jpg?alt=media&token=09f8ba0e-acf2-4b37-8164-fe00d0911393",
+          //imageUrl: "images/homepage-images/img04.jpg",
+          id: 3,
+          linkUrl: "shop/hats",
+        },
+        {
+          title: "гоління",
+          imageUrl:
+            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fimg26.jpg?alt=media&token=843afae3-8c2a-4227-bdf6-b1e1cdba2921",
+          //imageUrl: "images/homepage-images/img02.jpg",
+          id: 4,
+          linkUrl: "shop/jackets",
+        },
+        {
+          title: "для душу",
+          imageUrl:
+            "https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fimg24.jpg?alt=media&token=2f503e78-0698-4ba1-98b9-f6a1c88cb080",
+          //imageUrl: "images/homepage-images/img06.jpg",
+          id: 5,
+          linkUrl: "shop/sneakers",
         },
       ],
     };
@@ -241,10 +291,26 @@ class Directory extends Component {
           </div>
 
           <div className="directory-list-2">
-            <div className="title-2">ДЛЯ МУЖЧИН</div>
+            <div className="title-2">{"для чоловіків".toUpperCase()}</div>
           </div>
 
-          <div className="women-container">
+          <div className="homepage1">
+            <div className="directory-menu">
+              {this.state.sections2.map(
+                ({ id, titleFront, title, imageUrl, size }) => (
+                  <MenuItem
+                    key={id}
+                    title={title}
+                    titleFront={titleFront}
+                    imageUrl={imageUrl}
+                    size={size}
+                  />
+                )
+              )}
+            </div>
+          </div>
+
+          {/* <div className="women-container">
             <div className="image-container">
               <div
                 className="background-image-m"
@@ -269,7 +335,7 @@ class Directory extends Component {
                 }}
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );
