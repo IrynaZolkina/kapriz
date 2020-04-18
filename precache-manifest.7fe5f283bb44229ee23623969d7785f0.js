@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9813735160679919cd0ed094c94ff7e",
+    "revision": "12965e7afa2102227310d9d61bcf8151",
     "url": "/kapriz/index.html"
   },
   {
-    "revision": "a944c4250580c5ff7e8d",
-    "url": "/kapriz/static/css/main.e3cc5ae6.chunk.css"
+    "revision": "770f10b2865a01a39237",
+    "url": "/kapriz/static/css/main.3b4bb6c8.chunk.css"
   },
   {
-    "revision": "59eaa299dea0423064b2",
-    "url": "/kapriz/static/js/2.e6ff667e.chunk.js"
+    "revision": "ff5da75c030f0a0fbe83",
+    "url": "/kapriz/static/js/2.0087135f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/kapriz/static/js/2.e6ff667e.chunk.js.LICENSE.txt"
+    "url": "/kapriz/static/js/2.0087135f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a944c4250580c5ff7e8d",
-    "url": "/kapriz/static/js/main.e4f6f90d.chunk.js"
+    "revision": "770f10b2865a01a39237",
+    "url": "/kapriz/static/js/main.4d4338b2.chunk.js"
   },
   {
     "revision": "6c4388236fdf133cbc9e",
