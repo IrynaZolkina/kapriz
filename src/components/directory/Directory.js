@@ -7,7 +7,9 @@ import { selectDirectorySections } from "../redux/directory/directorySelectors";
 
 import MenuItem from "../components/Menuitem";
 import MenuItemJustImage from "../components/MenuItemJustImage";
-import DataManager from "../utilities/DataManager";
+import DataManager from "../utilities/datemanager/DataManager";
+import SliderThree from "../utilities/slider-3-units/SliderThree";
+import SliderRadio from "../utilities/slider-radio/SliderRadio";
 //import Button from "../utilities/Button";
 
 class Directory extends Component {
@@ -202,24 +204,20 @@ class Directory extends Component {
 
   render() {
     return (
-      <div className="directory-menu-my">
-        <div className="directory-list-0">
-          {/* <div className="image-container">
-            <img
-              className="image-xxxl"
-              src={this.state.sect[0].imageUrl}
-              alt=""
-            /> */}
-          {/* <div
-              className="image-xxxl"
-              style={{
-                backgroundImage: `url(${this.state.sect[0].imageUrl})`,
-              }}
-            /> */}
-          {/* </div> */}
-        </div>
+      <div>
+        <div className="grey-fon">
+          <section className="section-top-sales">
+            <div className="date">
+              <DataManager />
+            </div>
+            <div className="title-2">TOP ПРОДАЖУ</div>
 
-        <div className="grey-container">
+            <SliderThree />
+          </section>
+        </div>
+        {/*  <div className="directory-list-0"></div>
+
+       <div className="grey-container">
           <div className="date">
             <DataManager />
           </div>
@@ -269,12 +267,12 @@ class Directory extends Component {
               <div className="btn btn-middle">ПОСМОТРЕТЬ</div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="directory-list-1">
           <div className="title-2">ДЛЯ ЖЕНЩИН</div>
 
-          <div className="homepage1">
+          <div className="homepage">
             <div className="directory-menu">
               {this.state.sections.map(
                 ({ id, titleFront, title, imageUrl, size }) => (
@@ -294,7 +292,7 @@ class Directory extends Component {
             <div className="title-2">{"для чоловіків".toUpperCase()}</div>
           </div>
 
-          <div className="homepage1">
+          <div className="homepage">
             <div className="directory-menu">
               {this.state.sections2.map(
                 ({ id, titleFront, title, imageUrl, size }) => (

@@ -1,4 +1,5 @@
 import React from "react";
+import "./datemanager.css";
 
 const DataManager = () => {
   const date = new Date().toString();
@@ -46,28 +47,29 @@ const DataManager = () => {
   }
 
   const weekDay = date.slice(0, 3);
-  let day = "";
+  let dayn = "";
+
   switch (weekDay) {
     case "Tue":
-      day = "вiвторок";
+      dayn = "вiвторок";
       break;
     case "Mon":
-      day = "понедiлок";
+      dayn = "понедiлок";
       break;
     case "Wen":
-      day = "середа";
+      dayn = "середа";
       break;
-    case "Thr":
-      day = "квiтень";
+    case "Thu":
+      dayn = "четверг";
       break;
     case "Fri":
-      day = "травень";
+      dayn = "п’ятниця";
       break;
     case "Sat":
-      day = "субота";
+      dayn = "субота";
       break;
     case "Sun":
-      day = "недiля";
+      dayn = "недiля";
       break;
 
     default:
@@ -84,7 +86,7 @@ const DataManager = () => {
         {date.slice(11, 16).toUpperCase()}
       </div>
       <div>----------</div>
-      <div>{date.slice(0, 3)}</div>
+      <div>{dayn.toUpperCase()}</div>
     </div>
   );
 };
