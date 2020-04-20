@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/kapriz/static/css/main.3b4bb6c8.chunk.css",
-    "main.js": "/kapriz/static/js/main.4d4338b2.chunk.js",
-    "main.js.map": "/kapriz/static/js/main.4d4338b2.chunk.js.map",
+    "main.css": "/kapriz/static/css/main.acc3b474.chunk.css",
+    "main.js": "/kapriz/static/js/main.0ff65324.chunk.js",
+    "main.js.map": "/kapriz/static/js/main.0ff65324.chunk.js.map",
     "runtime-main.js": "/kapriz/static/js/runtime-main.7ef64154.js",
     "runtime-main.js.map": "/kapriz/static/js/runtime-main.7ef64154.js.map",
-    "static/js/2.0087135f.chunk.js": "/kapriz/static/js/2.0087135f.chunk.js",
-    "static/js/2.0087135f.chunk.js.map": "/kapriz/static/js/2.0087135f.chunk.js.map",
+    "static/js/2.423fe258.chunk.js": "/kapriz/static/js/2.423fe258.chunk.js",
+    "static/js/2.423fe258.chunk.js.map": "/kapriz/static/js/2.423fe258.chunk.js.map",
     "index.html": "/kapriz/index.html",
-    "precache-manifest.7fe5f283bb44229ee23623969d7785f0.js": "/kapriz/precache-manifest.7fe5f283bb44229ee23623969d7785f0.js",
+    "precache-manifest.46b7072bb1629b0ff4d79dc29d15d056.js": "/kapriz/precache-manifest.46b7072bb1629b0ff4d79dc29d15d056.js",
     "service-worker.js": "/kapriz/service-worker.js",
-    "static/css/main.3b4bb6c8.chunk.css.map": "/kapriz/static/css/main.3b4bb6c8.chunk.css.map",
-    "static/js/2.0087135f.chunk.js.LICENSE.txt": "/kapriz/static/js/2.0087135f.chunk.js.LICENSE.txt",
-    "static/media/crown.ed28accb.svg": "/kapriz/static/media/crown.ed28accb.svg"
+    "static/css/main.acc3b474.chunk.css.map": "/kapriz/static/css/main.acc3b474.chunk.css.map",
+    "static/js/2.423fe258.chunk.js.LICENSE.txt": "/kapriz/static/js/2.423fe258.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7ef64154.js",
-    "static/js/2.0087135f.chunk.js",
-    "static/css/main.3b4bb6c8.chunk.css",
-    "static/js/main.4d4338b2.chunk.js"
+    "static/js/2.423fe258.chunk.js",
+    "static/css/main.acc3b474.chunk.css",
+    "static/js/main.0ff65324.chunk.js"
   ]
 }
