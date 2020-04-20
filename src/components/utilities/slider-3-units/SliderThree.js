@@ -321,7 +321,13 @@ class SliderThree extends Component {
                 }
               />
               <div className="nnn2">
-                <input type="radio" checked />
+                <input
+                  onChange={() => {
+                    return null;
+                  }}
+                  type="radio"
+                  checked
+                />
               </div>
             </div>
           </div>
@@ -362,7 +368,7 @@ class SliderThree extends Component {
                 <div className="nnn">
                   <input
                     type="radio"
-                    onChange={(e) =>
+                    onChange={() =>
                       this.setState({
                         slideChosen: true,
                         sectionChosen: "section1",
@@ -585,6 +591,7 @@ class SliderThree extends Component {
                     }
                   />
                   <input
+                    value="st"
                     onChange={() =>
                       this.setState({
                         slideChosen: true,
@@ -595,6 +602,7 @@ class SliderThree extends Component {
                   />
                   <input
                     type="radio"
+                    value="st1"
                     onChange={() =>
                       this.setState({
                         slideChosen: true,
@@ -604,6 +612,7 @@ class SliderThree extends Component {
                   />
                   <input
                     type="radio"
+                    value="st2"
                     onChange={() =>
                       this.setState({
                         slideChosen: true,

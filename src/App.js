@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Homepage from "./components/pages/homepage/Homepage";
+import Navbar from "../src/components/components/navbar/Navbar";
 import { Switch, Route } from "react-router-dom";
 import ShopPage from "./components/pages/ShopPage";
 import Header from "./components/components/header/Header";
@@ -11,6 +12,7 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <Navbar />
         <Switch>
           <Route exact path="/" component={Homepage} />
           <Route path="/shoppage" component={ShopPage} />

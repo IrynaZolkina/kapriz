@@ -1,28 +1,4 @@
-/************* URL **************************
-hp1.png - url("https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fhp1.png?alt=media&token=1d8e9e89-424c-4aeb-b709-2d304c03974a")
-
-hp2.png - url("https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.com/o/kapris%2Fhomepage%2Fhp2.jpg?alt=media&token=39ba9c81-0389-43dc-9d0d-8e80a405da1b")
-*/
-
 /************** Directory *******************/
-
-/*.section-top-sales {
-  background-color: lightpink;
-}*/
-
-/***********************************/
-.directory-menu-my {
-  width: 100%;
-  margin: 0;
-}
-.directory-list-0 {
-  width: 80%;
-
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-  margin: 20px auto;
-}
 
 .grey-container {
   background-color: rgb(228, 228, 228);
@@ -120,7 +96,7 @@ hp2.png - url("https://firebasestorage.googleapis.com/v0/b/cat2-ac7df.appspot.co
 
 /************** Directory *******************/
 .directory-menu {
-  width: 99%;
+  width: 90%;
   margin: 2% auto;
   display: flex;
   flex-wrap: wrap;

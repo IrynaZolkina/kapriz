@@ -93,7 +93,7 @@ const Slider = () => {
             <div className="btn btn-large">ПОСМОТРЕТЬ</div>
           </div>
           <div className="par">
-            <p className="par1">Christian Dior "J'ador"</p>
+            <p className="par1">Christian DIOR Jadore</p>
             <p className="par2">{" класика яка заворожує".toUpperCase()}</p>
             <div className="btn btn-large">ПОСМОТРЕТЬ</div>
           </div>

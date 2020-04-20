@@ -1,10 +1,11 @@
 import React from "react";
 
 import "./homepage.css";
+import "../footer/footer.css";
 
 import Directory from "../../directory/Directory";
 import Slider from "../../utilities/slider/Slider";
-import Footer from "../Footer";
+import Footer from "../footer/Footer";
 
 const Homepage = () => (
   <div className="homepage1">

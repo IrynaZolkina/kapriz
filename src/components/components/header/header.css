@@ -1,5 +1,13 @@
 /***************** Header ******************/
-
+.upper-header {
+  background-color: lightgray;
+  font-size: 0.7rem;
+  font-weight: bold;
+  font-family: "Comfortaa";
+  text-align: center;
+  padding: 4px;
+  letter-spacing: 0.4rem;
+}
 .header {
   height: 70px;
   width: 100%;
@@ -12,6 +20,9 @@
   width: 70px;
   padding: 25px;
 }
+.header .options a {
+  color: black;
+}
 .header .options {
   width: 30%;
   height: 100%;
@@ -23,6 +34,7 @@
   padding: 10px 15px;
   cursor: pointer;
 }
+
 .header .logo-kapriz {
   content: "";
   background-position: center;
@@ -37,13 +49,15 @@
   /*font-family: "Montserrat Alternates", sans-serif;*/
   font-family: "Lora", serif;
   font-weight: bolder;
-  letter-spacing: 3vw;
+  letter-spacing: 3.5vw;
+  text-shadow: 4px 4px 4px rgb(85, 11, 119);
   margin-left: 25%;
-  text-shadow: -4px 4px 2 blue;
 }
 .header a {
   text-decoration: none;
-  color: black;
+  /* color: rgb(83, 24, 110);
+  text-shadow: 2px 2px 3px violet; */
+  color: rgb(250, 226, 250);
 }
 
 /************************************/
